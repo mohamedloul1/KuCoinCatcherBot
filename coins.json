@@ -148,24 +148,8 @@
         "owner": "mootje"
     },
     {
-        "symbol": "ZELIX",
-        "owner": "mootje"
-    },
-    {
         "symbol": "WAT",
         "owner": "habebe"
-    },
-    {
-        "symbol": "LKI",
-        "owner": "mootje"
-    },
-    {
-        "symbol": "SMH",
-        "owner": "mootje"
-    },
-    {
-        "symbol": "SHRAP",
-        "owner": "mootje"
     },
     {
         "symbol": "GMM",
@@ -184,10 +168,6 @@
         "owner": "habebe"
     },
     {
-        "symbol": "SWASH",
-        "owner": "firas"
-    },
-    {
         "symbol": "NOOB",
         "owner": "firas"
     },
@@ -196,11 +176,7 @@
         "owner": "firas"
     },
     {
-        "symbol": "IZI",
-        "owner": "firas"
-    },
-    {
-        "symbol": "GGG",
-        "owner": "firas"
+        "symbol": "OPAI",
+        "owner": "habebe"
     }
 ]
