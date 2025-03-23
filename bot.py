@@ -3,10 +3,12 @@ import requests
 import time
 import os
 import json
+from dotenv import load_dotenv
 
+load_dotenv()
 # Telegram parameters
-TELEGRAM_BOT_TOKEN = '7506660486:AAFGYsmn29BSzIQ0JWqnl3uKJBPg9QSMIfo'
-TELEGRAM_CHAT_ID = '5494250993'
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 
 # Gebruiker berichten ontvangen status
 user_wants_messages = True
