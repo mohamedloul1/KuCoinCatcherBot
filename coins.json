@@ -1,29 +1,5 @@
 [
     {
-        "symbol": "DAPPX",
-        "owner": "habebe"
-    },
-    {
-        "symbol": "SON",
-        "owner": "habebe"
-    },
-    {
-        "symbol": "TOWER",
-        "owner": "habebe"
-    },
-    {
-        "symbol": "UNB",
-        "owner": "habebe"
-    },
-    {
-        "symbol": "IDEA",
-        "owner": "habebe"
-    },
-    {
-        "symbol": "BULL",
-        "owner": "habebe"
-    },
-    {
         "symbol": "CREDI",
         "owner": "habebe"
     },
@@ -44,10 +20,6 @@
         "owner": "habebe"
     },
     {
-        "symbol": "BBL",
-        "owner": "habebe"
-    },
-    {
         "symbol": "OLE",
         "owner": "habebe"
     },
@@ -60,39 +32,11 @@
         "owner": "habebe"
     },
     {
-        "symbol": "LBP",
-        "owner": "mootje"
-    },
-    {
-        "symbol": "DECHAT",
-        "owner": "mootje"
-    },
-    {
-        "symbol": "TIDAL",
-        "owner": "mootje"
-    },
-    {
         "symbol": "TOKO",
         "owner": "habebe"
     },
     {
-        "symbol": "GEEQ",
-        "owner": "mootje"
-    },
-    {
-        "symbol": "ZPAY",
-        "owner": "mootje"
-    },
-    {
         "symbol": "AFG",
-        "owner": "habebe"
-    },
-    {
-        "symbol": "CSIX",
-        "owner": "mootje"
-    },
-    {
-        "symbol": "HALO",
         "owner": "habebe"
     },
     {
@@ -100,83 +44,79 @@
         "owner": "habebe"
     },
     {
-        "symbol": "OBI",
-        "owner": "mootje"
-    },
-    {
-        "symbol": "ISME",
-        "owner": "mootje"
-    },
-    {
-        "symbol": "TUNE",
-        "owner": "mootje"
-    },
-    {
         "symbol": "WSDM",
         "owner": "habebe"
-    },
-    {
-        "symbol": "FLAME",
-        "owner": "mootje"
-    },
-    {
-        "symbol": "ECOX",
-        "owner": "mootje"
-    },
-    {
-        "symbol": "UOS",
-        "owner": "mootje"
-    },
-    {
-        "symbol": "DCK",
-        "owner": "habebe"
-    },
-    {
-        "symbol": "WOOP",
-        "owner": "mootje"
-    },
-    {
-        "symbol": "FRM",
-        "owner": "mootje"
-    },
-    {
-        "symbol": "AIEPK",
-        "owner": "mootje"
-    },
-    {
-        "symbol": "ZEND",
-        "owner": "mootje"
     },
     {
         "symbol": "WAT",
         "owner": "habebe"
     },
     {
-        "symbol": "GMM",
-        "owner": "habebe"
-    },
-    {
-        "symbol": "VISION",
-        "owner": "habebe"
-    },
-    {
-        "symbol": "MONI",
-        "owner": "mootje"
-    },
-    {
         "symbol": "SCPT",
         "owner": "habebe"
     },
     {
-        "symbol": "NOOB",
-        "owner": "firas"
-    },
-    {
-        "symbol": "PUMLX",
-        "owner": "firas"
-    },
-    {
         "symbol": "OPAI",
+        "owner": "habebe"
+    },
+    {
+        "symbol": "AMB",
+        "owner": "habebe"
+    },
+    {
+        "symbol": "STAGE",
+        "owner": "habebe"
+    },
+    {
+        "symbol": "SENSO",
+        "owner": "mootje"
+    },
+    {
+        "symbol": "DAPP",
+        "owner": "mootje"
+    },
+    {
+        "symbol": "SNAI",
+        "owner": "mootje"
+    },
+    {
+        "symbol": "PATEX",
+        "owner": "mootje"
+    },
+    {
+        "symbol": "1CAT",
+        "owner": "mootje"
+    },
+    {
+        "symbol": "MJT",
+        "owner": "mootje"
+    },
+    {
+        "symbol": "MUBI",
+        "owner": "mootje"
+    },
+    {
+        "symbol": "BLOCK",
+        "owner": "habebe"
+    },
+    {
+        "symbol": "LLM",
+        "owner": "habebe"
+    },
+    {
+        "symbol": "ZKF",
+        "owner": "mootje"
+    },
+    {
+        "symbol": "BABYBNB",
+        "owner": "habebe"
+    },
+    {
+        "symbol": "KEY",
+        "owner": "mootje"
+    },
+    {
+        "symbol": "XTAG",
         "owner": "habebe"
     }
 ]

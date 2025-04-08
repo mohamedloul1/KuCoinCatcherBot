@@ -1,18 +1,16 @@
-# 🐍 HANDLEIDING: KuCoinCatcherBot beheren
-
-📂 **Projectlocatie**: `/home/mootjeloul/KuCoinCatcherBot`  
-💻 **Bot-bestand**: `bot.py`  
-🌐 **Virtual environment**: `venv`
 
 ---
 
-## ✅ 1. Eenmalige installatie
-
+## 📌 Step 1: Activate your Virtual Environment (`venv`)
 ```bash
-cd ~/KuCoinCatcherBot
-python3 -m venv venv
+source /path/to/venv/bin/activate
 source venv/bin/activate
-pip install kucoin-python
-# Of:
-# pip install -r requirements.txt
+pip install -r requirements.txt
+
+
+nohup python3 bot.py &
+nohup python3 bot.py > bot.log 2>&1 &
+
+Or, to see all Python processes:
+ps aux | grep python
 
