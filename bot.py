@@ -219,6 +219,7 @@ def check_price_changes(initial_prices, current_prices):
                 send_telegram_message(message, buttons=buttons)
 
 def main():
+    print("Starting bot...")
     global user_wants_messages
     rate_limiter = RateLimiter(max_requests=1800, period=60)
     send_telegram_message("Fetching initial prices for USDT pairs...")
