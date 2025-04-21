@@ -6,12 +6,14 @@ import json
 from dotenv import load_dotenv
 
 load_dotenv()
+
 # Telegram parameters
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 
 # Gebruiker berichten ontvangen status
 user_wants_messages = True
+last_update_id = None
 
 COINS_FILE = "coins.json"
 threshold = 0.0198  # Standaard drempelwaarde
@@ -122,7 +124,8 @@ def receive_telegram_commands():
                         followed_list = ", ".join(followed_owners) or "No Filter"
                         send_telegram_message(f"Current settings:\nThreshold: {threshold * 100:.2f}%\nFollowing owners: {followed_list}")
 
-                    last_update_id = messages[-1]["update_id"]
+                    last_update_id = message["update_id"]
+
                 elif "callback_query" in message:
                     callback_id = message["callback_query"]["id"]
                     if callback_id in processed_callback_ids:
@@ -149,7 +152,15 @@ def receive_telegram_commands():
     else:
         print("Failed to receive commands")
 
-last_update_id = None
+# 🔧 Init: sla oude Telegram-updates over bij opstart
+try:
+    response = requests.get(f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/getUpdates")
+    updates = response.json().get("result", [])
+    if updates:
+        last_update_id = updates[-1]["update_id"]
+        print(f"Start vanaf update_id: {last_update_id}")
+except Exception as e:
+    print(f"Fout bij ophalen van updates bij opstart: {e}")
 
 class RateLimiter:
     def __init__(self, max_requests, period):
